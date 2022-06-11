@@ -1,0 +1,14 @@
+.policy__wrap {
+  padding: 50px 0; }
+
+.policy__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px; }
+
+.policy .policy__box-img-box {
+  width: 50px;
+  height: 100%;
+  background: url(../img/) top left/contain repeat-y; }

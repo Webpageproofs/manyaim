@@ -1,0 +1,45 @@
+.popup-cookie {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translate(0, 130%);
+  -ms-transform: translate(0, 130%);
+  transform: translate(0, 130%);
+  background-color: #c4b2fb;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  padding: 5px 15px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(212, 217, 232, 0.2);
+  box-shadow: 0px 0px 5px 5px rgba(212, 217, 232, 0.2); }
+  .popup-cookie a {
+    text-decoration: underline; }
+  .popup-cookie__body {
+    font-size: 13px; }
+  .popup-cookie__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 40px; }
+  .popup-cookie__text {
+    margin-right: 20px; }
+  .popup-cookie__btn {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: lowercase;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 5px;
+    padding: 5px 10px; }
+    .popup-cookie__btn:hover {
+      border: 1px solid #020288;
+      color: #020288; }
