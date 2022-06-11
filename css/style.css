@@ -2077,6 +2077,7 @@ textarea:focus::placeholder {
       background-color: #8C30F5; }
 
 .photostream {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2095,14 +2096,15 @@ textarea:focus::placeholder {
     margin: 0 10px 10px 0;
     cursor: pointer;
     overflow: hidden;
-    width: 90px;
+    width: 29%;
     height: 90px;
     border-radius: 5px;
     background-color: #F1FEFF;
     background: url(../img/) center/cover no-repeat; }
     @media (max-width: 990px) {
       .photostream li {
-        margin: 0 5px 5px 0; } }
+        margin: 0 5px 5px 0;
+        height: 70px; } }
     .photostream li:hover .photostream-a {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
